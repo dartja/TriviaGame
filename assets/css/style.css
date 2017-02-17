@@ -1,0 +1,61 @@
+body { 
+background-color: blue; 
+color:white;
+}
+
+.container {
+	width:555px;
+	margin-top:10px;
+	
+}
+
+#display {
+
+  /* Typography */
+  font-size: 50px;
+  font-family: monospace;
+
+  /* Visual */
+  background: blue;
+  color: orange;
+}
+
+
+button#start {
+	color:black;
+}
+
+button#done {
+	margin-top:20px;
+	margin-left:10px;
+}
+
+h2.top {
+	margin-top:20px;
+	font-weight: bold;
+}
+
+.row {
+	margin-bottom: 15px;
+}
+
+.rnumber {
+	margin-left:-15px;
+}
+
+.random-won-loss {
+	margin-left:-10px;
+}
+
+.wl-row {
+	margin-left:-15px;
+	height:30px;
+}
+
+.w {
+	margin-bottom: 0px;
+}
+
+.total-score-field {
+	height:100px;
+}

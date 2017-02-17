@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="us-en">
+<head>
+    <meta charset="utf-8">
+    <title>Trivia Game - Point Break Quiz</title>
+    <meta id="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+</head>
+<body id="quiz">
+    <div class="container">
+        <header class="row">
+            <h1 class="h1">Point Break Quiz Sesh!!</h1>
+            <div class="collage"><img src="assets/images/pointbreak-collage.jpg"></div>
+        </header>
+        <div id="display">01:20</div>
+        <!-- Div containing our stopwatch controls -->
+      <div id="buttons">
+        <button id="start">Start</button>
+       </div>
+        
+    	<h2 class="top">What college did Special Agent Johnny Utah play for?</h2>
+          <form name="quiz" onsubmit="return onSubmit()">
+          <label class="radio-inline">
+            <input type="radio" name="q1" value="1a">Florida State
+            </label>
+            <label class="radio-inline">
+            <input type="radio" name="q1" value="1b">UCLA
+            </label>
+            <label class="radio-inline">
+            <input type="radio" name="q1" value="1c">Ohio State
+            </label>
+            <label class="radio-inline">
+            <input type="radio" name="q1" value="1d">Boise Community College
+            </label>
+            </form>
+          
+        <h2 class="top">What was the location of Bodhi's last ride during the 50-year storm?</h2>
+          <form>
+            <label class="radio-inline">
+              <input type="radio" name="q2" value="2a">Waimea Bay
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="q2" value="2b">Maverick's
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="q2" value="2c">Bell's Beach
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="q2" value="2d">Arizona Wave Tank
+            </label>
+          </form>
+        <h2 class="top">Which actor did Director Kathryn Bigelow NOT try to cast for role of Johnny Utah?</h2>
+          <form>
+            <label class="radio-inline">
+              <input type="radio" name="q3" value="3a"">Charlie Sheen
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="q3" value="3b">Patrick Swayze
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="q3" value="3c">Johnny Depp
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="q3" value="3d">Dan Cortese
+            </label>
+          </form>
+        <h2 class="top">Some skydiving scenes were real and some were fake. Who actually skydived in the film?</h2>
+          <form>
+            <label class="radio-inline">
+              <input type="radio" name="q4" value="4a">Keanu Reeves
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="q4" value="4b">Patrick Swayze
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="q4" value="4c">Gary Busey
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="q4" value="4d">Lori Petty
+            </label>
+          </form>
+        <h2 class="top">Agent Pappas was so hungry during a stakeout that he had Johnny Utah get him two of which delicious treat?</h2>
+          <form>
+            <label class="radio-inline">
+              <input type="radio" name="q5" value="5a">Italian Hoagie
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="q5" value="5b">Bacon Cheeseburger
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="q5" value="5c">Chili Dog
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="q5" value="5d">Meatball Sub
+            </label>
+          </form>
+        <h2 class="top">How many times better is the original Point Break compared to the 2015 remake?</h2>
+          <form>
+            <label class="radio-inline">
+              <input type="radio" name="q6" value="6a">2X
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="q6" value="6b">5X
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="q6" value="6c">100X
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="q6" value="6d">Infinite
+            </label><br>
+            
+          </form>
+        
+        
+        <div class="row">
+            <button id="done" class="btn btn-default" type="submit" value=""><a href="results.html">Done</a></button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
